@@ -1,9 +1,7 @@
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      Sharat PFO
+    <div>
+      <h2>Sharat Portfolio</h2>
     </div>
   );
 }
