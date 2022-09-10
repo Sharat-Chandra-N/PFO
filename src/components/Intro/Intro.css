@@ -1,0 +1,54 @@
+.intro{
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+}
+
+.i-left{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.i-left>:nth-child(1)
+{
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem ;
+}
+
+.i-left>:nth-child(2)
+{
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 3rem ;
+}
+
+.i-left>:nth-child(3)
+{
+    color: var(--gray);
+    font-weight: 100;
+    font-size: 1rem ;
+    margin: 10px 0px 2rem 0px;
+}
+
+.i-right{
+    display: flex;
+    flex: 1;
+}
+
+.i-icons{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.i-icons>*{
+    transform: scale(0.5);
+}
+
+.i-icons>*:hover{
+    cursor: pointer;
+    
+}
+
