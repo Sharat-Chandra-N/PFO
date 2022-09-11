@@ -3,9 +3,17 @@ import './Intro.css'
 
 const Intro = ({ data }) => {
 
-    const openInNewTab = (url) => {
-        const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
-        if (newWindow) newWindow.opener = null
+    const onHandleClick = (url) => {
+
+        let element = document.createElement('a');
+
+        if (url.startsWith('http://') || url.startsWith('https://')) {
+            element.href = url;
+        } else {
+            element.href = 'http://' + url;
+        }
+
+        element.click();
     }
 
     return (
@@ -19,7 +27,7 @@ const Intro = ({ data }) => {
                     {
                         data.links.map((item) => (
                             <div>
-                                <img src={item.image} alt='' onClick={() => openInNewTab(item.link)} />
+                                <img src={item.image} alt='' onClick={() => onHandleClick(item.link, "_blank")} />
                             </div>
                         ))
                     }

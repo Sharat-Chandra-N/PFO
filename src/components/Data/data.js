@@ -16,11 +16,11 @@ export const Data = [
             links: [
                 {
                     image: "../../img/github.png",
-                    link: "www.github.com"
+                    link: "https://github.com/Sharat-Chandra-N"
                 },
                 {
                     image: "../../img/linkedin.png",
-                    link: "www.linkedin.com"
+                    link: "https://www.linkedin.com/in/sharat-chandra-75b0b8136/"
                 },
                 {
                     image: "../../img/instagram.png",
