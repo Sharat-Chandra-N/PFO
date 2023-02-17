@@ -10,7 +10,7 @@ export const Data = [
         itemKey: "Intro",
         items: {
             introTitle: "Hy! I Am",
-            name: "Sharat Chandra",
+            name: "Sharat Chandra ",
             description: "Frontend Developer with experience in web designing and development, producting the Quality Work",
             hireMeButtonLabel: "Hire Me",
             links: [
