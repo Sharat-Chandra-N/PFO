@@ -2,7 +2,7 @@ export const Data = [
     {
         itemKey: "Navbar",
         items: {
-            navBarTitle: "Sharat Chandra",
+            navBarTitle: "Sharat Chandra N",
             contactButtonLabel: "Contact Us"
         }
     },
